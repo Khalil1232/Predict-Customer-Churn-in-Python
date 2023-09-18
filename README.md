@@ -27,6 +27,7 @@ This part involves analyzing the dataset and building a model to predict whether
 ### Exit/Retain: 
 
 <img width="613" alt="2" src="https://github.com/SE-Khalil75/Predict-Customer-Churn-in-Python/assets/87024181/980aa213-6d52-4ef1-af20-e586ed1e920a">
+
 ### CR/Non CR Holder: 
 
 <img width="615" alt="3" src="https://github.com/SE-Khalil75/Predict-Customer-Churn-in-Python/assets/87024181/7563dce7-1484-4674-a2ad-388c31d68ab3">
