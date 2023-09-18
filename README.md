@@ -1,41 +1,38 @@
-# Predict-Customer-Churn-in-Python
-This project involves analyzing a dataset and building a model to predict whether a customer will leave a bank or not. The project includes performing exploratory data analysis, selecting features, converting categorical columns to numeric columns, feature scaling, model training, feature importance analysis, confusion matrix, classification metrics, cross-validation, and presenting the results.
-## **Table of Contents**
+# SQL Insights, Customer Churn Prediction, and Power BI Dashboards
+This project combines three essential components to help businesses gain insights into their customer data and make data-driven decisions:
 
-- 1	Introduction
-- 2	Import libraries
-- 3	Read dataset
-- 4	Exploratory data analysis (EDA)
-   - 4.1 Shape of dataset
-   - 4.2 Preview dataset
-   - 4.3 Summary of dataset
-   - 4.4 Statistical properties of dataset
-- 5	Feature selection
-- 6	Convert categorical columns to numeric columns
-  - 6.1	Explore Gender variable
-  - 6.2	Explore Geography variable
-- 7	Feature Scaling
-- 8	Model Training
-  - 8.1	Predict accuracy with different algorithms
-  - 8.2	Plot the classifier accuracy scores
-- 9	Feature Importance
-  - 9.1	Feature importance with Random Forest model
-  - 9.2	Drop least important feature
-- 10 Confusion Matrix
-- 11 Classification Metrices
-  - 11.1 Classification Report
-  - 11.2 Classification Accuracy
-  - 11.3 Classification Error
-  - 11.4 Precision
-  - 11.5 Recall
-  - 11.6 True Positive Rate
-  - 11.7 False Positive Rate
-  - 11.8 Specificity (True Negative Rate)
-  - 11.9 f1 – score
-  - 11.10	Support
-- 12 Cross-Validation
-- 13 Results and Conclusion
-- 14 References
-  
+## Part 1: SQL Insights
+Below are descriptions of the SQL queries included in this project:
+
+-- Count the Number of Customers.
+-- Retrieve customers who have more than two products and are active members.
+-- Calculate the total balance of customers grouped by their geography.
+-- Find customers with both a high credit score (above 800) and a high balance (above 75,000).
+-- Retrieve active customers (IsActiveMember = 1) who do not have a credit card (HasCrCard = 0).
+-- Calculate the average age of customers who have exited (Exited = 1), grouped by gender.
+-- Retrieve records of customers who have a credit score above 750 and belong to the same tenure range (5 years).
+-- Retrieve the top 10 customers with the highest estimated salaries.
+-- Calculate the average age of customers who have a credit card and are active members.
+
+## Part 2: Predict-Customer-Churn-in-Python
+
+This part involves analyzing the dataset and building a model to predict whether a customer will leave the bank or not. The project includes performing exploratory data analysis, selecting features, converting categorical columns to numeric columns, feature scaling, model training, feature importance analysis, confusion matrix, classification metrics, cross-validation, and presenting the results.
+
+## Part 3: Power Bi Dashbords
+
+### Active/InActive: 
+
+https://github.com/SE-Khalil75/Predict-Customer-Churn-in-Python/issues/1
+
+### Exit/Retain: 
+
+https://github.com/SE-Khalil75/Predict-Customer-Churn-in-Python/issues/2
+
+### CR/Non CR Holder: 
+
+https://github.com/SE-Khalil75/Predict-Customer-Churn-in-Python/issues/3
+
+
+
 ## Dataset:
 [Churn Modelling Dataset](https://www.kaggle.com/datasets/shrutimechlearn/churn-modelling)
